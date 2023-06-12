@@ -1,0 +1,33 @@
+#footer{
+    background-image: url("../pic/wp.svg");
+    background-position: center ;
+    background-size: cover;
+}
+
+#ftr-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#list-social-icons{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-style{
+    font-size:48px;
+    padding: 0% 2%;
+}
+
+#copyright{
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+}
+
+i{
+    color: #fff;
+}

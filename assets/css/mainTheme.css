@@ -1,0 +1,33 @@
+/* mainTheme include  the structure of the html page, header.css, footer.css and mobile.css to apply on all html pages */
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./mobile.css");
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.HomePage{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    grid-template-areas: 
+    "hd"
+    "art" 
+    "ft";
+}
+
+#header{
+    grid-area: hd;
+}
+
+#article{
+    padding: 3%;
+    grid-area: art;
+}
+
+#footer{
+    grid-area: ft;
+}

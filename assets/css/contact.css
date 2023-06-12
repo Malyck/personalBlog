@@ -1,0 +1,24 @@
+@import url("./mainTheme.css");
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#area{
+ 
+    border-radius: 40px;
+    padding: 2% 2%;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.473);
+    background-image: linear-gradient(to left,#0a9292,#4ae6e6);
+    background-position: center ;
+    background-size:cover;
+}
+
+#paragraph{
+    text-align: center;
+    color:aliceblue;
+}
