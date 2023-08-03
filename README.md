@@ -35,7 +35,7 @@ $ git clone https://github.com/Malyck/PersonalBlog.git
 ## Usage
 Enter the folder
 ```bash
-$ cd Personal
+$ cd PersonalBlog
 ```
 
 Run the `index.html`, it will opened in your default web browser.
